@@ -61,6 +61,7 @@ ent.pack(side=RIGHT, expand=YES, fill=X)
 v = IntVar()
 v.set(1)
 options = [('Starting', 0), ('Finishing', 1)]
+
 for txt, val in options:
 	Radiobutton(root,
 		text=txt,
